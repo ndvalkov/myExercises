@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Sol1</title>
+	
+	<style type="text/css">
+		
+		textarea#resultArea {
+		    display: block;
+			margin-top: 10px;
+		}
+		
+		p.array {
+		    display:inline;
+		}
+		
+	</style>
+	
+	<script type="text/javascript" src="script6.js"> 
+	
+	</script>
+	
+</head>
+<body>
+	
+	<!-- <input type="text" id = "input"/> -->
+	
+	<button id = "but" onclick = "getInput1()">Solve</button>
+	
+	<p class = "reference">
+	{firstName:"John", lastName:"Petrov", age: 56},	<br/>
+	{firstName:"Denitsa", lastName:"Petrova", age: 33},	<br/>	
+	{firstName:"Dimitar", lastName:"Pavlov", age: 21},	<br/>
+	{firstName:"John", lastName:"Locke", age: 56},	<br/>
+	{firstName:"Stiliyan", lastName:"Dimitrov", age: 56},<br/>
+	{firstName:"Niki", lastName:"Valkov", age: 11},<br/>
+	{firstName:"Kaloyan", lastName:"Denev", age: 44},<br/>
+	{firstName:"Dushko", lastName:"Denev", age: 41},<br/>
+	{firstName:"Kaloyan", lastName:"Petrov", age: 20},	<br/>	
+	{firstName:"John", lastName:"Nedev", age: 20},	<br/>
+	{firstName:"Niki", lastName:"Stanimirov", age: 20},	<br/>
+	{firstName:"Todor", lastName:"Petrov", age: 20},<br/>
+	{firstName:"Mariqn", lastName:"Kocev", age: 20},<br/>
+	{firstName:"Stanimira", lastName:"Kaloferova", age: 21}			
+
+
+	</p>
+	
+	<textarea name="" id="resultArea" cols="70" rows="4"></textarea>
+	
+	<p>
+		Write a function that groups an array of persons by age, first or last name. The function must return an associative array, with keys - the groups, and values -arrays with persons in this groups
+		<br/>Use function overloading (i.e. just one function)
+		<br/>var persons = {…};
+		<br/>var groupedByFname = group(persons,"firstname");
+		<br/>var groupedByAge= group(persons,"age");
+	</p>
+</body>
+</html>

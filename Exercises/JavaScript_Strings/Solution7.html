@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Sol1</title>
+	
+	<style type="text/css">
+		
+		textarea#resultArea {
+		    display: block;
+			margin-top: 10px;
+		}
+		
+		p.array {
+		    display:inline;
+		}
+		
+		#input {
+			width: 500px;
+		}
+		
+	</style>
+	
+	<script type="text/javascript" src="script7.js"> 
+	
+	</script>
+	
+</head>
+<body id = "main">
+	
+	<input type="text" id = "input" placeholder = "url:"/>
+	
+	
+	<button id = "but" onclick = "getInput1()">Solve</button>
+	
+	<textarea name="result" id="resultArea" cols="30" rows="10"></textarea>
+	
+	<p>
+		Write a script that parses an URL address given in the format:<br/>
+		[protocol]://[server]/[resource]<br/>and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.For example from the URL http://www.devbg.org/forum/index.php the following information should be extracted:<br/>
+		{protocol: "http", server: "www.devbg.org", 
+ 		resource: "/forum/index.php"}
+
+		
+	</p>
+</body>
+</html>

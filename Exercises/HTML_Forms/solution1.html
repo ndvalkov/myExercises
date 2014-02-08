@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<style type = "text/css">
+			td {
+				border: 2px solid #BDBDBD;
+				text-align:center;
+			}
+			
+			tfoot{
+				text-align:center;
+			}
+			
+			label{
+				font-weight: bold;
+			}
+			
+			#lastName {
+				width: 400px;
+			}
+			
+			#firstName {
+				width: 400px;
+			}
+			
+			#address {
+				width: 380px;
+			}
+			
+			#city {
+				width: 320px;
+			}
+			
+			#state {
+				width: 50px;
+			}
+			
+			#month {
+				width: 25px;
+			}
+			
+			#day {
+				width: 25px;
+			}
+			
+			#year {
+				width: 70px;
+			}
+			
+			#countCode {
+				width: 70px;
+			}
+			
+			#areaCode {
+				width: 70px;
+			}
+			
+			#zPCode {
+				width: 100px;
+			}
+			
+			#country {
+				width: 320px;
+			}
+			
+			#emailAddress {
+				width: 380px;
+			}
+			
+			tfoot {
+				background-color: #afeeee;
+			}
+			
+			
+			
+		</style>
+	</head>
+	
+	<body>
+		
+		<form>
+			
+			<table>
+			
+				<thead>
+				
+				</thead>
+				
+				<tfoot>
+					<td colspan = "2">
+						<input type = "submit" value = "Submit">
+						<input type = "reset" value = "Clear This Form">
+					</td>
+				</tfoot>
+				
+				<tbody>
+				
+					<tr>
+						<td>
+							<label for = "lastName">
+								Last Name
+							</label>
+						</td>
+						<td>
+							<input id = "lastName"type = "text" value = "" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "firstName">
+								FIrst Name
+							</label>
+						</td>
+						<td>
+							<input id = "firstName" type = "text" value = "" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "address">
+								Address
+							</label>
+						</td>
+						<td>
+							<textarea id = "address" value = "">
+							</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "city">
+								City
+							</label>
+						</td>
+						<td>
+							<input id = "city" type = "text" value = "">
+							<label for = "state">
+								State
+							</label>
+							<input id = "state" type = "text" value = "">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "zPCode">
+								Zip/Postal Code
+							</label>
+						</td>
+						<td>
+							<input id = "zPCode" type = "text" value = "">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "country">
+								Country
+							</label>
+						</td>
+						<td>
+							<select id = "country">
+				
+								<option value = "1">Belgium</option>
+								<option value = "2" selected = "selected">Bulgaria</option>
+								<option value = "3">Chinese Taipei</option>
+								<option value = "4">Greece</option>
+								<option value = "5">USA</option>
+								
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for = "phoneNumber">
+									Phone(country code, area code, number)
+								</label>
+						</td>
+						<td>
+							(+<input id = "countCode" type = "tel" pattern = "[0-9]{3}">)
+							<input id = "areaCode"type = "text" pattern = "[0-9]{2}">-
+							<input id = "number" type = "text" pattern = "[0-9]{7}">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "emailAddress">
+								E-mail
+							</label for = "emailAddress">
+						</td>
+						<td>
+							<input id = "emailAddress" type = "email" pattern = "^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "month">
+								Birth date
+							</label>
+						</td>
+						<td>
+							Month&nbsp;<input id = "month" type = "text" pattern = "^(0?[1-9]|1[012])$">
+							Day&nbsp;<input id = "day" type = "text" pattern = "^(0?[1-9]|[12]\d|3[01])$">
+							Year(4 digit)&nbsp;<input id = "year" type = "text" pattern = "^[12][0-9]{3}$">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "gender">
+								Gender
+							</label>
+						</td>
+						<td>
+							<select id = "gender">
+								<option value = "male" selected = "selected">male</option>
+								<option value = "female">female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "startDate">
+								Starting date
+							</label>
+						</td>
+						<td>
+							<input id = "startDate" name = "stDate" type = "radio" value = "Spring 2014"></input>Spring 2014
+							<input id = "startDate" name = "stDate" type = "radio" value = "Summer 2014"></input>Summer 2014
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for = "commentQuestion">
+								Comments/Questions
+							</label>
+						</td>
+						<td>
+							<textarea placeholder="Comment here" id = "commentQuestion" rows="5" cols="40">
+							</textarea>
+						</td>
+					</tr>
+				
+				</tbody>
+				
+			</table>
+			
+			
+	</body>	
+	
+</html>

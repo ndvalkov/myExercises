@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Sol1</title>
+	
+	<style type="text/css">
+		
+		input {
+		    width: 200px;
+		}
+		
+		button{
+			width: 100px;
+			padding: 10px;
+			
+		}
+		
+		textarea#resultArea {
+		    width: 200px;
+			height: 30px;
+			display: block;
+			border: 2px solid grey;
+			margin-top: 10px;
+			text-align: center;
+			padding-top: 10px;
+			
+		}
+		
+		textarea[name = "inpt1"] {
+		    text-align: center;
+			padding-top: 10px;
+			height: 30px;
+		}
+		
+		textarea[name = "ln"] {
+		    padding-top: 10px;
+			display: block;
+			margin-top: 8px;
+			width: 400px;
+			height: 15px;
+			
+		}
+		
+		button#solve {
+		    width: 70px;
+			height: 20px;
+			padding:0px;
+		}
+		
+		textarea[name="Output"] {
+		    display: inline;
+		}
+		
+	</style>
+	
+	<script type="text/javascript" src="script1.js"> 
+	
+	</script>
+	
+</head>
+<body>
+	<button value = "GeneratePoint1" onclick = "printRandomPoint1()">GeneratePoint1</button>
+	<textarea name="inpt1" id="ResultArea1" cols="10" rows="2"></textarea>
+	<button value = "GeneratePoint2" onclick = "printRandomPoint2()">GeneratePoint2</button>
+	<textarea name="inpt1" id="ResultArea2" cols="10" rows="2"></textarea>
+	<button value = "CalcLine" onclick = "calculateDistance()">CalcLine</button>
+	
+	<textarea name="" id="resultArea" cols="30" rows="20"></textarea>
+	<div></div>
+	<button value = "" onclick = "fillLine1()">FillLine1</button>
+	<textarea name="ln" id="line1" cols="30" rows="20"></textarea>
+	<button value = "" onclick = "fillLine2()">FillLine2</button>
+	<textarea name="ln" id="line2" cols="30" rows="20"></textarea>
+	<button value = "" onclick = "fillLine3()">FillLine3</button>
+	<textarea name="ln" id="line3" cols="30" rows="20"></textarea>
+
+	<div>Check if the lines can form a triangle: </div>
+	<button id = "solve" onclick = "checkTriangle()" value = "">OK</button>
+	<textarea name="Output" id="finalResult" cols="10" rows="1"></textarea>
+	
+	<p>
+		Write functions for working with shapes in  standard Planar coordinate system
+		Points are represented by coordinates P(X, Y)
+		Lines are represented by two points, marking their beginning and ending
+		L(P1(X1,Y1),P2(X2,Y2))
+		Calculate the distance between two points
+		Check if three segment lines can form a triangle
+	</p>
+</body>
+</html>

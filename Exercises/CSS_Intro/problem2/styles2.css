@@ -1,0 +1,28 @@
+table {
+			border: 2px ridge #C9C9C9;
+			border-collapse: collapse;
+		}
+		
+		td {
+			border: 2px ridge #C9C9C9;
+			font-size: 10px;
+		}
+		
+		th {
+			border: 2px ridge #55b805;
+			background-color: #58bb06;
+			color: white;
+			font-size: 12px;
+			width: 150px;
+			text-align: left;
+		}
+		
+		img {
+			width: 16px;
+			height:12px;
+		}
+		
+		.evenRow {
+			
+			background-color: #eeebd8;
+		}

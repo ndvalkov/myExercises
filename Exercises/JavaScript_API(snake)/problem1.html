@@ -1,0 +1,119 @@
+<DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake</title>
+	<style type="text/css">
+				
+		#wrapper {
+			border: 2px solid grey;
+			width: 655px;
+			height: 505px;
+			padding: 5px;
+			border-radius: 10px;
+			background: rgb(206,220,231); /* Old browsers */
+			background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+		}
+		
+		canvas {
+			float: left;
+			border-radius: 10px;
+		}
+		
+		#input1 {
+			position: absolute;
+			top: 8px;
+			left: 520px;
+			margin: 7px;
+			border: 2px solid grey;
+			border-radius: 5px;
+			height: 50px;
+			font-family: Lucida Sans;
+			font-size: 13px;
+			text-align: center;
+			
+		}
+		
+		button#startButton {
+			position: absolute;
+			top: 488px;
+			left: 530px;
+			margin-left: 5px;
+			width: 100px;
+			color: #4C5966;
+			border-color: #4C5966;
+			border-radius: 5px;
+			font-size: 17px;
+			font-family: Lucida Sans;
+		}
+		
+		#score {
+			position: absolute;
+			top: 70px;
+			left: 530px;
+			font-size: 25px;
+			font-family: Lucida Sans;
+			margin-left: 5px;
+			color: green;
+		}
+		
+		#result {
+			position: absolute;
+			top: 100px;
+			left: 530px;
+			margin-left: 5px;
+			padding: 3px;
+			color: yellow;
+			font-family: Lucida Sans;
+			font-size: 25px;
+			
+		}
+		
+		#highScore {
+			position: absolute;
+			top: 140px;
+			left: 512px;
+			margin-left: 5px;
+			padding: 2px;
+			color: green;
+			font-family: Lucida Sans;
+			font-size: 25px;
+		}
+		
+		#result2 {
+			position: absolute;
+			top: 175px;
+			left: 530px;
+			margin-left: 5px;
+			padding: 3px;
+			color: yellow;
+			font-family: Lucida Sans;
+			font-size: 25px;
+			
+		}
+		
+		
+	</style>
+	<script type="text/javascript" src = "script1.js"></script>
+</head>
+<body>
+	<div id = "wrapper">
+	
+		<canvas id = "myCanvas" width = "500px" height = "500px">///The browser does not support Canvas///</canvas>
+		<input type="text" id = "input1" />
+		<button id = "startButton" onclick = "startGame()">Start</button>
+		<div id = "score">Score:</div>
+		<div id = "result">000</div>
+		<div id = "highScore">High Score:</div>
+		<div id = "result2">000</div>
+		
+	</div>
+	
+</body>
+</html>

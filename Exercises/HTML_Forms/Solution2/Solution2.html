@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<style type = "text/css">
+			#window{
+				position: relative;
+				border: 1px solid #BEBEBE;
+				width: 100%;
+				height: 630px;
+				background-color: #d2e6ff;
+				border-radius:5px;
+				position: relative;
+			}
+			
+			#window2{
+				
+				border: 1px solid #BEBEBE;
+				width: 98%;
+				height: 550px;
+				background-color: #e5ebf7;
+				border-radius:5px;
+				display: inline-block;
+				position: absolute;
+				top:56px;
+				padding-top: 50px;
+				<!-- align: center; -->
+				<!-- margin-left: 0px; -->
+				
+			}
+			
+			.button1{
+				display:block; 
+				position: absolute; 
+				top:0%; 
+				left:4px; 
+				background-image: url(button1.png);
+				font-size:0;
+				width:80px;
+				height:23px;
+				<!-- border: none; -->
+			}
+			
+			.button4{
+				display:block; 
+				position: absolute; 
+				top:0%; 
+				right:4px; 
+				background-image: url(button4.png);
+				font-size:0;
+				width:46px;
+				height:23px;
+			}
+			
+			.button3{
+				display:block; 
+				position: absolute; 
+				top:0%; 
+				right:50px; 
+				background-image: url(button3.png);
+				font-size:0;
+				width:30px;
+				height:23px;
+			}
+			
+			.button2{
+				display:block; 
+				position: absolute; 
+				top:0%; 
+				right:81px; 
+				background-image: url(button2.png);
+				font-size:0;
+				width:30px;
+				height:23px;
+			}
+			
+			#image1{
+				display:block; 
+				position: absolute; 
+				top:5%; 
+				left: 2%;
+				right:81px; 
+			}
+			
+			.button5{
+				display:block; 
+				position: absolute; 
+				top:5%; 
+				left:245px; 
+				background-image: url(button5.png);
+				font-size:0;
+				width:30px;
+				height:23px;
+			}
+			
+			.button6{
+				display:block; 
+				position: absolute; 
+				top:6%; 
+				right:24px; 
+				background-image: url(button6.png);
+				font-size:0;
+				width:20px;
+				height:12px;
+				border-color: #d2e6ff;
+			}
+			
+			#image4{
+				display:block; 
+				position: absolute; 
+				top:1px; 
+				left: 1px;
+				right:81px; 
+			}
+			
+			#image5{
+				display:block; 
+				position: absolute; 
+				top:5px; 
+				left: 36px;
+				
+			}
+			
+			#browseBar{
+				
+				position: absolute; 
+				top:3px; 
+				left: 60px;
+				width: 700px;
+			}
+			
+			#image6{
+				display:block; 
+				position: absolute; 
+				top:5px; 
+				left: 750px;
+				border: 1px solid black;
+				border-left: none;
+				border-bottom: none;
+				
+			}
+			
+			#image2{
+				display:block; 
+				position: absolute; 
+				top:8px; 
+				right: 385px;
+				border: 1px solid black;
+				border-right: none;
+				
+			}
+			
+			.button8{
+				display:block; 
+				position: absolute; 
+				top:3px; 
+				right:4px; 
+				background-image: url(button8.png);
+				font-size:0;
+				width:36px;
+				height:25px;
+				border-color: #d2e6ff;
+			}
+			
+			.button7{
+				display:block; 
+				position: absolute; 
+				top:4px; 
+				right:45px; 
+				background-image: url(button7.png);
+				font-size:0;
+				width:30px;
+				height:25px;
+				border-color: #d2e6ff;
+			}
+			
+			#searchBar{
+				
+				position: absolute; 
+				top:4px; 
+				right: 80px;
+				
+				width: 300px;
+			}
+			
+			.tableInfo{
+				
+				margin-top: 28px;
+				margin-left: 10px;
+				width: 98%;
+				height: 90%;
+				border: 1px solid black;
+				background: white;
+			}
+			
+			td{
+				border: 1px solid black;
+			}
+			
+			th {
+				border: 1px solid black;
+			}
+			
+			.button9{
+				
+				background-image: url(button9.png);
+				font-size:0;
+				width:70px;
+				height:25px;
+				border-color: #d2e6ff;
+			}
+			
+			#footer{
+				border: none;
+			}
+			
+			.button10{
+				
+				background-image: url(button10.png);
+				font-size:0;
+				width:46px;
+				height:25px;
+				border-color: #d2e6ff;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		
+		
+		
+		<div id = "window">
+			
+			<img src = "side-left.png" style = "height: 626px">
+			
+			<input type = "button" class="button1"></input>
+			<input type = "button" class="button4"></input>
+			<input type = "button" class="button3"></input>
+			<input type = "button" class="button2"></input>
+			<img id = "image1" src = "image1.png">
+			<input type = "button" class="button5"></input>
+			<input type = "button" class="button6" value = "https://..."></input>
+			
+			
+			
+			
+			
+			
+			<div id = "window2">
+				<img id = "image4" src = "image4.png">
+				<img id = "image5" src = "image5.png">
+				<input id = "browseBar" type = "text">
+				<img id = "image6" src = "image6.png">
+				<img id = "image2" src = "image2.png">
+				<input type = "button" class="button8"></input>
+				<input type = "button" class="button7"></input>
+				<input id = "searchBar" type = "text">
+				
+				
+				<table class = "tableInfo">
+				
+					<thead>
+						
+						<tr>
+							<th rowspan = "2">
+								Order
+							</th>
+							<th colspan = "3">
+								Personal Info
+							</th>
+							<th colspan = "5">
+								University Marks
+							</th>
+							
+						</tr>
+						<tr>
+							<th>
+								First Name
+							</th>
+							<th>
+								Last Name
+							</th>
+							<th>
+								Faculty Number
+							</th>
+							<th>
+								English
+							</th>
+							<th>
+								Math
+							</th>
+							<th>
+								Biology
+							</th>
+							<th>
+								Physics
+							</th>
+							<th>
+								Total
+							</th>
+						</tr>
+						
+					</thead>
+					
+					<tfoot>
+						<tr>
+							<td id = "footer">
+								<input type = "button" class="button9"></input>
+								
+								<a href = "">1,</a>
+								<a href = "">2,</a>
+								<a href = "">3,</a>
+								<a href = "">4,</a>
+								...,
+								<a href = "">10,</a>
+								
+								<input type = "button" class="button10"></input>
+							</td>
+							
+								
+							
+							
+						</tr>
+					</tfoot>
+					
+					<tbody>
+						<tr>
+							<td>
+								1
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								2
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								3
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								4
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<<td>
+								5
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								6
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								7
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								8
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								9
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+						<tr>
+							<td>
+								10
+							</td>
+							<td>
+								Kiril
+							</td>
+							<td>
+								Kirilov
+							</td>
+							<td>
+								6061
+							</td>
+							<td>
+								6
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								5
+							</td>
+							<td>
+								6
+							</td>
+						</tr>
+					</tbody>
+				
+				</table>
+			
+			
+			</div>
+			
+			
+			
+		</div>
+	</body>	
+	
+</html>

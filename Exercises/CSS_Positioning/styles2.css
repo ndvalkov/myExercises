@@ -1,0 +1,95 @@
+section {
+		    
+			font-size:15px;
+			font-family: Arial;
+			border: 1px solid #BFBFBF;
+			background-color:#eee;
+			width: 35%;
+			height: 565px;
+			border-radius: 10px;
+		}
+		
+		.templates {
+		    
+			border: 1px solid #949494;
+			background-color:white;
+			height: 126px;
+			margin-left: 5px;
+			margin-right:5px;
+			margin-top: 34px;
+			margin-bottom: 34px;
+			
+		}
+		
+			.templates#firstTemp {
+			    
+				margin-top: 60px;
+				
+			}
+			
+			
+			
+		
+		div.inside {
+		    display:inline-block;
+			padding-left: 10px;
+			
+			width: 240px;
+			
+		}
+		
+	
+		img {
+			float: left;
+		}
+		
+		
+		
+		.firstButton {
+			background-image:url(images/button1.png);
+			width: 74px;
+			height: 26px;
+			border-color: red;
+			color: #EBEBEB;
+			position: absolute;
+			left: 254px;
+			
+		}
+			.firstButton#down {
+			    position: absolute;
+				bottom: 82px;
+			}
+			
+		.secondButton {
+			background-image:url(images/button2.png);
+			width: 61px;
+			height: 26px;
+			border-color: red;
+			color: #EBEBEB;
+			position: absolute;
+			left: 331px;
+			
+		}
+		
+			.secondButton#down {
+			    position: absolute;
+				bottom: 82px;
+			}
+		
+		a#link1 {
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		}
+		
+		a#link2 {
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		}
+		
+		div#title {
+		    margin-top: 10px;
+			margin-left: 10px;
+			font-size: 10px;
+		}

@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\problemsNext\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\problemsNext\bin\Release\problemsNext.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\problemsNext\bin\Release\problemsNext.pdb
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\problemsNext\obj\x86\Release\problemsNext.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\problemsNext\obj\x86\Release\problemsNext.pdb

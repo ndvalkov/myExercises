@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\Problem17\Problem17\bin\Debug\Problem17.exe
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\Problem17\Problem17\bin\Debug\Problem17.pdb
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\Problem17\Problem17\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\Problem17\Problem17\obj\x86\Debug\Problem17.exe
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\Problem17\Problem17\obj\x86\Debug\Problem17.pdb

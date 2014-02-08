@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src = "script2.js"></script>
+	<style type="text/css">
+		
+		div#wrapper {
+			border: 2px solid blue;
+			width: 1230px;
+			height: 400px;
+			margin-bottom: 10px;
+		}
+		
+			div#wrapper div {
+				border: 1px solid red;
+				margin: 5px;
+			}
+			
+		ul {
+			
+			
+		}
+		
+		ul li {
+			
+		}
+		
+		p {
+			float: left;
+		}
+		
+			p.rightPar {
+				float: right;
+				margin-left: 10px;
+				padding-left: 15px;
+				border-left: 2px solid black;
+					
+			}
+
+	</style>
+</head>
+<body>
+	<div id = "wrapper">
+		
+	</div>
+	
+	
+	<button onclick = "testElipse()">Test circular</button>
+	<button onclick = "testRectangular() ">Test rectangular</button>
+	
+	
+	<p>
+		Create a module that works with moving div elements. Implement functionality for:
+		<br/>Add new moving div element to the DOM
+		<br/>The module should generate random background, font and border colors for the div element
+		<br/>-All the div elements are with the same width and height
+		<br/>-The movements of the div elements can be either circular or rectangular
+		<br/>The elements should be moving all the time
+	</p>
+	<p class = "rightPar">
+		var movingShapes = ....<br/>
+		//add element with rectangular movement<br/>
+		movingShapes.add("rect"); <br/>
+		//add element with ellipse movement<br/>
+		movingShapes.add("ellipse");
+	</p>
+	
+</body>
+</html>

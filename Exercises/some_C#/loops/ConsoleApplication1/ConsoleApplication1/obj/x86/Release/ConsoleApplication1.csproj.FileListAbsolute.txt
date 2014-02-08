@@ -1,0 +1,7 @@
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\ConsoleApplication1\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
+C:\Documents and Settings\User\Desktop\MyCSharpProblems\Loops\ConsoleApplication1\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb

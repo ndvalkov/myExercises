@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Sol1</title>
+	
+	<style type="text/css">
+		
+		input {
+		    width: 200px;
+		}
+		
+		input[type = "button"]{
+			width: 100px;
+		}
+		
+		textarea#resultArea {
+		    width: 400px;
+			height: 100px;
+			display: block;
+			border: 2px solid grey;
+			margin-top: 10px;
+		}
+		
+	</style>
+	
+	<script type="text/javascript" src="script7.js"> 
+	
+	</script>
+	
+</head>
+<body>
+	
+	Array elements:
+	<input type = "text" id = "text1" value = ""></input>
+	Sort:
+	<input type = "text" id = "text2" value = ""></input>
+	<input type="button" onclick="sortInput()" value="Sort">
+	Enter element:
+	<input type = "text" id = "text3" value = ""></input>
+	
+	<input type="button" onclick="getInput()" value="Solve">
+	
+	<textarea name="" id="resultArea" cols="30" rows="30" value = "11"></textarea>
+	<!-- <input type = "text" id = "resultArea" value = "0"></input> -->
+	
+	<p>
+			Write a program that finds the index of given element in a sorted array of integers by using the binary search algorithm (find it in Wikipedia)
+
+	</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+		body {
+			background-color: #a9a9a9;
+		}
+		
+		header {
+			text-align: center;
+			padding: auto;
+			color: #fafad2;
+		}
+		
+		ul li a{
+			color: white;
+			text-decoration: none;
+		}
+		
+		.current {
+			background-color: #D9D9D9;
+		}
+		
+		ul li:last-child a{
+			
+			text-decoration: underline;
+		}
+		
+		section a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		section article header {
+			text-align: left;
+		}
+		
+		body>footer {
+			text-align: center;
+		}

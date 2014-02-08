@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Sol1</title>
+	
+	<style type="text/css">
+		
+		textarea#resultArea {
+		    display: block;
+			margin-top: 10px;
+		}
+		
+		p.array {
+		    display:inline;
+		}
+		
+	</style>
+	
+	<script type="text/javascript" src="script6.js"> 
+	
+	</script>
+	
+</head>
+<body id = "main">
+	
+	<!-- <input type="text" id = "input" placeholder = ""/> -->
+	
+	<button id = "but" onclick = "getInput1()">Get Content</button>
+	<button id = "but" onclick = "getInput2()">Solve</button>
+	<textarea name="result" id="resultArea" cols="140" rows="20">We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.</textarea>
+	
+	<p>
+		Write a function that extracts the content of a html page given as text. The function should return anything that is in a tag, without the tags:
+		<br/>
+		&lt;html&gt;&lt;head&gt;&lt;title&gt;Sample site&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;div&gt;text&lt;div&gt;more text&lt;/div&gt;and more...&lt;/div&gt;in body&lt;/body&gt;&lt;/html&gt;
+     	<br/>
+		result:<br/>
+		Sample sitetextmore textand more...in body
+	</p>
+</body>
+</html>

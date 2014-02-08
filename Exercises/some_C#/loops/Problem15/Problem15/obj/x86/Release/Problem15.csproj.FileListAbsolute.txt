@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\Problem15\bin\Release\Problem15.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\Problem15\bin\Release\Problem15.pdb
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\Problem15\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\Problem15\obj\x86\Release\Problem15.exe
+C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\Problem15\obj\x86\Release\Problem15.pdb
